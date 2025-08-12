@@ -200,3 +200,33 @@
 //         }
 //     }
 // }
+
+// nested for loop tabular data 
+//1-
+// print table 1-100
+// for(var i = 1;i<=100 ;i=i+10 ){
+//     for(var j=i; j<i+10;j++){
+//      document.write(j+" ")
+//     }
+//     document.write("<br>")
+// } 
+// angle print 1 2 3 4 5
+// for(var i=1;i<=5;i++){
+//     for(var j=1;j<=i;j++){
+//         document.write(i)
+//     }
+//     document.write("<br>")
+// }
+// two angle /half diamond
+// for (var i=1;i<=10;i++){
+//     for(var j=1;j<=i;j++){
+//         document.write(j+" ")
+//     }
+//     document.write("<br>")
+// }
+// for(var c=1;c<=10;c++){
+//     for (var b=10;b>=c;b--){
+//       document.write(b +" ")
+//     }  
+//     document.write("<br>")
+// }
