@@ -109,3 +109,32 @@ var num=Math.floor(6.9)
 console.log(num)//6
 var num=Math.floor(8.99)
 console.log(num)//8
+
+//Math.random generates random numbers between 0-1 and never gives whole number
+var num=Math.random()
+console.log(num)
+
+
+var num=Math.random()*6
+console.log(num)
+
+//to make it whole number jugar is Math.ceil(Math.random()*6)1-6
+var num=Math.ceil(Math.random()*6)
+console.log(num)
+
+
+
+var box = document.getElementById('dabba')
+console.log(box);
+
+
+box.innerHTML = '<p class="shine"> </p>'
+function add(){
+     var num =Math.ceil(Math.random() * 6)
+    if(num === 1){
+          var box = document.getElementById('dabba')
+console.log(num);
+box.innerHTML = '<div class="shine">'+  '</p>' + '<p class="shine">'+  '</p>' 
+    }
+  
+}
