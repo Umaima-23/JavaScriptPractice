@@ -53,13 +53,19 @@ function msg() {
 //mouse events
 var image=document.getElementById('img')
 function changeImg(e){
+<<<<<<< HEAD
     e.target.src="./images/bulb-on.jpg"   
+=======
+    e.target.src="./images/bulb-on.jpg"
+    
+>>>>>>> ed912ef6eba2907d77a216b466d2ddbe7db6d636
 }
 
 function resetImg(e){
     e.target.src="./images/bulb-off.jpg"
     
 }
+<<<<<<< HEAD
 function btn() {
  if(bulb.src.includes("bulb-off.jpg")){
     bulb.src="./images/bulb-on.jpg"
@@ -67,3 +73,5 @@ function btn() {
     bulb.src="./images/bulb-off.jpg"
  }
 }
+=======
+>>>>>>> ed912ef6eba2907d77a216b466d2ddbe7db6d636
