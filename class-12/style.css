@@ -1,0 +1,22 @@
+.swal2-popup{
+    background-color: pink;
+}
+
+.swal2-title{
+    color: #bd0a64;
+}
+.btn-hi{
+    padding: 10px 20px;
+    border-radius: 10px;
+     background-color: transparent;
+     border: 2px solid #bd0a64;
+}
+.btn-hi:hover{
+    transform: translateY(-3px);
+    background-color: pink;
+    cursor: pointer;
+    color: white;
+}
+img{
+    width: 100px;
+}
